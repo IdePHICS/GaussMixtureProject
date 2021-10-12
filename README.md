@@ -9,7 +9,7 @@ Repository for the paper [*Learning Gaussian Mixtures with Generalised Linear Mo
 
 *Left: logistic classification of three clusters with ridge regularisation for different values of the regularisation's strength λ. Center and right: test error and training error performing a ridge classification of a mixture of K=3 clusters with diagonal covariance in the high dimensional limit, with thoretical predictions compared with the results of numerical simulations.*
 
-# Structure
+## Structure
 
 In this repository we provide the code and some guided example to help the reader to reproduce the figures of the paper. The repository is structured as follows.
 
