@@ -15,7 +15,7 @@ In this repository we provide the code and some guided example to help the reade
 
 | File                          | Description                                                                                                                                                    |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```/multiK/``` | Solver for the fixed point equations of the order parameters in the case of classification tasks on K Gaussian clusters. The notebook ```how_to.ipynb``` provides a step-by-step explanation on how to use the package                                     |
+| ```/multiK/``` | Solver for the fixed point equations of the order parameters in the case of classification tasks on K Gaussian clusters. The notebook ```how_to.ipynb``` provides a step-by-step explanation on how to use the package. This implementation has been used to produce the results in Section 3.2 of the paper.                                     |
 | ```/real_data/mnist_scattering.ipynb``` | Notebook reproducing real-data curves, see Fig. 4 of the paper.  |
 | ```/gan_data/synthetic_data_pipeline.ipynb ```         | Notebook explaining pipeline to assign labels for GAN generated data.                                                               |
 | ```/gan_data/monte_carlo.ipynb ```         | Notebook explaining how to estimate population covariances for features from GAN generated data.                                                               |
