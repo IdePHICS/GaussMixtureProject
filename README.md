@@ -2,18 +2,20 @@
 Repository for the paper [*Learning Gaussian Mixtures with Generalised Linear Models: Precise Asymptotics in High-dimensions*](https://arxiv.org/abs/2106.03791).
 
 <p float="left">
-  <img src="https://github.com/IdePHICS/GCMProject/blob/main/plots/setup.png" width="40%" height="35%">
-  <img src="https://github.com/IdePHICS/GCMProject/blob/main/plots/mnist_transforms.jpg" width="45%" height="45%">
+  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/animation_logistic.gif" height="300" />
+  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/GenErr.jpg" height="300">
+  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/TrainErr.jpg" height="300">
 </p>
+
+*Left: logistic classification of three clusters with ridge regularisation for different values of the regularisation's strength λ. Center and right: test error and training error performing a ridge classification of a mixture of K=3 clusters with diagonal covariance in the high dimensional limit, with thoretical predictions compared with the results of numerical simulations.*
 
 # Structure
 
- We provide a couple of guided examples to help the reader reproduce the figures of the paper. The key ingredients are:
+In this repository we provide the code and some guided example to help the reader to reproduce the figures of the paper. The repository is structured as follows.
 
 | File                          | Description                                                                                                                                                    |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```/state_evolution/``` | Out-of-the-box package for solving saddle-points equations for classification and regression tasks,      |                               |
-| ```how_to.ipynb``` | Notebook with a step-by-step explanation on how to use the `state_evolution` package.                                     |
+| ```/multiK/``` | Solver for the fixed point equations of the order parameters in the case of classification tasks on K Gaussian clusters. The notebook ```how_to.ipynb``` provides a step-by-step explanation on how to use the package                                     |
 | ```/real_data/mnist_scattering.ipynb``` | Notebook reproducing real-data curves, see Fig. 4 of the paper.  |
 | ```/gan_data/synthetic_data_pipeline.ipynb ```         | Notebook explaining pipeline to assign labels for GAN generated data.                                                               |
 | ```/gan_data/monte_carlo.ipynb ```         | Notebook explaining how to estimate population covariances for features from GAN generated data.                                                               |
