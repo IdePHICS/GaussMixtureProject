@@ -25,7 +25,7 @@ The notebooks are self-explanatory. You will also find some auxiliary files such
 
 Note that for running the examples in ```/gan_data``` you will need the weights of the generator, the teacher and the covariances. A folder can be downloaded [here](https://drive.google.com/file/d/1XMm5NDFm3Ol0eqLjvgN5XriQcSNtI3ZN/view?usp=sharing) in a single folder ```/data```.
 
-# Reference
+## Reference
 
 [1]: *Learning Gaussian Mixtures with Generalised Linear Models: Precise Asymptotics in High-dimensions*,
 B Loureiro, G. Sicuro, C Gerbelot, A. Pacco, F Krzakala, L Zdeborová, [arXiv: 2106.03791](https://arxiv.org/abs/2106.03791) [stat.ML]
