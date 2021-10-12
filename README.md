@@ -2,9 +2,9 @@
 Repository for the paper [*Learning Gaussian Mixtures with Generalised Linear Models: Precise Asymptotics in High-dimensions*](https://arxiv.org/abs/2106.03791).
 
 <p float="left">
-  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/animation_logistic.gif" height="300" />
-  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/GenErr.jpg" height="300">
-  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/TrainErr.jpg" height="300">
+  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/animation_logistic.gif" height="250" />
+  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/GenErr.jpg" height="250">
+  <img src="https://github.com/gsicuro/GaussMixtureProject/blob/main/plots/TrainErr.jpg" height="250">
 </p>
 
 *Left: logistic classification of three clusters with ridge regularisation for different values of the regularisation's strength λ. Center and right: test error and training error performing a ridge classification of a mixture of K=3 clusters with diagonal covariance in the high dimensional limit, with thoretical predictions compared with the results of numerical simulations.*
