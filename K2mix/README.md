@@ -1,0 +1,2 @@
+# GaussianMix
+Gaussian Mixture project
